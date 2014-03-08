@@ -9,7 +9,7 @@ All scripts developed for and tested on SPLAT. They'll probably run on GAIA but 
 
 ## db_prune.sh
 
-**This script has been mostly superceeded by functionality that is now built in to the management servers.**
+**This script has been mostly superseded by functionality that is now built in to the management servers.**
 
 Run the script from the shell (in expert mode). It'll search the smartcenter or each CMA on a provider-1 for database versions that are older than a configured age (90 days as it stands). If it finds any it will prompt for a username and password in order to run the dbver tool to delete them. On a Provider-1 system it will remember the credentials for the run so you don't need to enter them again.
 
