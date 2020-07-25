@@ -7,6 +7,10 @@ Where a script might run on either Smartcenter (now called SMS) or Provider-1 (M
 
 All scripts developed for and tested on SPLAT. They'll probably run on GAIA but I haven't tested them.
 
+## backup-mds.sh
+
+Script to back up an MDS (formerly Provider-1) and FTP or SCP it off to somewhere, optionally with email reporting.
+
 ## db_prune.sh
 
 **This script has been mostly superseded by functionality that is now built in to the management servers.**
